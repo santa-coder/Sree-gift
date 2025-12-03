@@ -133,16 +133,9 @@
     if(audio) audio.play().catch(()=>{}); // catch prevents autoplay errors
   });
 
-  function toggleAudio() {
-    const audio = document.getElementById('bg-music');
-    if(audio.paused) audio.play();
-    else audio.pause();
-  }
 </script>
 </head>
 <body>
-
-<audio id="bg-music" src="audio/music.mp3" loop></audio>
 
 <!-- Navigation -->
 <nav>
@@ -165,9 +158,6 @@
 
   <!-- Floating Image -->
   <img src="images/floating.jpg" alt="Floating" class="floating-img">
-
-  <!-- Music Control Button -->
-  <button onclick="toggleAudio()">Play / Pause Music 🎵</button>
 
   <!-- Navigation Buttons -->
   <div class="nav-buttons">
