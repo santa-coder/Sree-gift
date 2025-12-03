@@ -18,11 +18,6 @@
 </style>
 <script>
   window.addEventListener('DOMContentLoaded',()=>{const audio=document.getElementById('bg-music'); if(audio) audio.play();});
-  function toggleAudio() {
-    const audio = document.getElementById('bg-music');
-    if(audio.paused) audio.play();
-    else audio.pause();
-  }
 </script>
 </head>
 <body>
@@ -43,7 +38,6 @@
   <h1>The Ring 💍</h1>
   <p>Here is the special ring that symbolizes our love. Add your ring image below.</p>
   <img src="images/memory3.jpg" alt="Ring" class="ring-img">
-    <button onclick="toggleAudio()">Play / Pause Music 🎵</button>
   <div class="nav-buttons">
     <a href="gift.html">← Back</a>
     <a href="floating.html">Next →</a>
